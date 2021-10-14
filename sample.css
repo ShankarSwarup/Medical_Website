@@ -80,7 +80,6 @@ section .container .user .formBx form input {
 }
 
 section .container .user .formBx form button {
-    max-width: 100px;
     background: #677eff;
     color: #fff;
     cursor: pointer;
@@ -88,6 +87,9 @@ section .container .user .formBx form button {
     font-weight: 500;
     letter-spacing: 1px;
     transition: 0.5s;
+    border:none;
+    height:30px;
+    width:80px;
 }
 
 section .container .user .formBx form .signup {
