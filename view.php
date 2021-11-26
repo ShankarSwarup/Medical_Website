@@ -10,9 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="view.css">
     <link rel="stylesheet" href="show.css">
-
-
-    <?php
+</head>
+<body>
+<?php
 		session_start();
 		$name = "";
 		$connection = mysqli_connect("localhost","root","");
@@ -24,8 +24,7 @@
             <input type="submit" name="view" value="Search">
         </form>
     </center>
-    <div class="filter">
-</div>
+    <div class="filter"></div>
     <?php
     if(isset($_POST['view']))
     {
@@ -72,14 +71,6 @@
                     }
                 }
 			?>
-
-</head>
-
-<body>
-    
-
-
 </body>
-
 </html>
 

@@ -126,6 +126,7 @@ section .container.active .signupBx .formBx {
 
 section .container .signupBx .imgBx {
     left: -100%;
+    padding:20px;
 }
 
 section .container.active .signupBx .imgBx {
@@ -141,7 +142,7 @@ section .container.active .signinBx .formBx {
 }
 
 section .container .signinBx .imgBx {
-    left: 0;
+    padding:10px;
 }
 
 section .container.active .signinBx .imgBx {

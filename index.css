@@ -18,7 +18,7 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    background: url(pexels-karolina-grabowska-4386466.jpg);
+    background: url(banner.jpg);
     background-size: cover;
 }
 .banner .content
@@ -433,11 +433,6 @@ section
         margin-left:0;
     }
     header .navigation li a
-    {
-        color:#111;
-        font-size:1.6em;
-    }
-    header .navigation  .dropdown .dropdown-content li a
     {
         color:#111;
         font-size:1.6em;
